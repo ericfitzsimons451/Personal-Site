@@ -9,24 +9,16 @@ export class Nav extends Component {
     }
   }
 
-  selectAboutMe = () => {
-    console.log('hits')
-  }
-
-  selectProjects = () => {
-    console.log('hits')
-  }
-  
-  selectContact = () => {
-    console.log('hits')
+  selectView = (event) => {
+    this.props.setCurrentView(event.target.value)
   }
 
   render() {
     return (
       <div class="nav">
-        <button type="submit" onClick={this.selectAboutMe}>About Me</button>
-        <button type="submit" onClick={this.selectProjects}>Projects</button>
-        <button type="submit" onClick={this.selectContact}>Contact</button>
+        <button type="submit" onClick={this.selectView} value="About Me">About Me</button>
+        <button type="submit" onClick={this.selectView} value="Projects">Projects</button>
+        <button type="submit" onClick={this.selectView} value="Contact">Contact</button>
       </div>
     )
   }
