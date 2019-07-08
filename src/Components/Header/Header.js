@@ -1,10 +1,11 @@
 import React from 'react'
-import ''
+import './Header.scss'
 
 export const Header = () => {
   return (
     <div>
-      Working?
+      <h1>Eric Fitzsimons</h1>
+      <h3>Personal Website</h3>
     </div>
   )
 }
