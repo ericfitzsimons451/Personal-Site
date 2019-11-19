@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './App.css';
+import './App.scss';
 import Header from '../Header/Header'
 import Nav from '../Nav/Nav'
 import MainDisplay from '../MainDisplay/MainDisplay'
@@ -14,7 +14,7 @@ export class App extends Component {
   }
   
   setCurrentView = (viewName) => {
-    this.setState({currentView: viewName})
+    this.setState({ currentView: viewName })
   }
 
   render() {
