@@ -10,7 +10,7 @@ export class Nav extends Component {
   render() {
     return (
       <div className="nav">
-        <button type="submit" onClick={this.selectView} value="About Me">About Me</button>
+        <button type="submit" onClick={this.selectView} value="About Me">About</button>
         <button type="submit" onClick={this.selectView} value="Projects">Projects</button>
         <button type="submit" onClick={this.selectView} value="Contact">Contact</button>
       </div>
