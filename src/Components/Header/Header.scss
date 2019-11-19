@@ -1,0 +1,30 @@
+.header {
+  margin: 0;
+}
+
+.header-name {
+  font-size: 3rem;
+  color: #fff;
+  padding: 15vh 0 0 0;
+  text-shadow: 1px 1px 1px #000,
+               3px 3px 5px #000; 
+}
+
+.job-title {
+  color: #fff;
+  font-size: 2rem;
+  text-shadow: 1px 1px 1px #000,
+               2px 2px 3.5px #000;
+  margin: 2vh;
+}
+
+.github {
+  color: white;
+  width: 3rem;
+  margin: 2vw;
+}
+
+.linkedIn {
+  width: 3rem;
+  margin: 2vw;
+}
