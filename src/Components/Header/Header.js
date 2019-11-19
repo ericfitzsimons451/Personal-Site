@@ -10,12 +10,12 @@ export const Header = () => {
       <h3 className="job-title">Frontend Web Developer</h3>
       <a href='https://github.com/ericfitzsimons451'>
         <img className="github" 
-             src={github} 
+             src={ github } 
              alt="github link" />
       </a>
       <a href='https://www.linkedin.com/in/ericfitzsimons451/'>
         <img className="linkedIn" 
-              src={linkedIn} 
+              src={ linkedIn } 
               alt="linkedIn link" />
       </a>
     </div>
