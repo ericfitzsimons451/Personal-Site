@@ -18,7 +18,7 @@ export const About = () => {
           stove, on the disc golf course, playing guitar, or spending time
           with my dog, Charlie.
       </h3>
-      <img className="charlie" src={ charlie } alt="Charlie, a dog" />
+      <img className="img-charlie" src={ charlie } alt="Charlie, a dog" />
     </div>
   )
 }
