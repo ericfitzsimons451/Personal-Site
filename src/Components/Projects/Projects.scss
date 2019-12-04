@@ -1,0 +1,40 @@
+.projects {
+  
+}
+
+.palette-container {
+
+}
+
+// .palette {
+//   height: 12rem;
+//   // position: absolute;
+//   right: 1rem;
+//   margin: 1rem;
+//   background: inherit;  
+// }
+.palette-container {
+  width: 200px;
+  height: 200px;
+  display: block;
+  position: relative;
+  top: 100;
+}
+
+.palette-container::after {
+  content: "";
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+}
+// .palette-text {
+//   font-size: 2rem;
+//   // position: absolute;
+//   right: 1rem;
+//   bottom: 4rem;
+  
+// }
