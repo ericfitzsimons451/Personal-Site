@@ -21,7 +21,8 @@ export class App extends Component {
     return (
       <div className="App">
         <Header />
-        <Nav setCurrentView={this.setCurrentView} />
+        <Nav setCurrentView={this.setCurrentView}
+             currentView={this.state.currentView} />
         <MainDisplay displayContent={this.state.currentView} />
       </div>
     );

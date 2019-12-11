@@ -1,10 +1,16 @@
 import React, { Component } from 'react'
+
 import './Nav.scss'
 
 export class Nav extends Component {
 
   selectView = (event) => {
-    this.props.setCurrentView(event.target.value)
+    const { currentView } = this.props
+    if (currentView === event.target.value) {
+      this.props.setCurrentView('')
+    } else {
+      this.props.setCurrentView(event.target.value)
+    }
   }
 
   render() {
