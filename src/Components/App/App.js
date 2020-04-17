@@ -1,8 +1,18 @@
 import React, { Component } from 'react';
 import './App.scss';
 import Header from '../Header/Header'
-import Nav from '../Nav/Nav'
-import MainDisplay from '../MainDisplay/MainDisplay'
+import About from '../About/About'
+import Projects from '../Projects/Projects'
+import Contact from '../Contact/Contact'
+// import Nav from '../Nav/Nav'
+// import MainDisplay from '../MainDisplay/MainDisplay'
+// import Prismic from 'prismic-javascript'
+// import { Date, Link, RichText } from 'prismic-reactjs'
+
+// const apiEndpoint = 'https://your-repo-name.cdn.prismic.io/api/v2'
+// const accessToken = '' // This is where you would add your access token for a Private repository
+ 
+// const Client = Prismic.client(apiEndpoint, { accessToken })
 
 export class App extends Component {
   constructor() {
@@ -21,9 +31,12 @@ export class App extends Component {
     return (
       <div className="App">
         <Header />
-        <Nav setCurrentView={this.setCurrentView}
+        <About />
+        <Projects />
+        <Contact />
+        {/* <Nav setCurrentView={this.setCurrentView}
              currentView={this.state.currentView} />
-        <MainDisplay displayContent={this.state.currentView} />
+        <MainDisplay displayContent={this.state.currentView} /> */}
       </div>
     );
   }

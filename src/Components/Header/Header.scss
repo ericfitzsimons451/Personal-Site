@@ -1,45 +1,61 @@
+.header {
+  margin-left: 4rem;
+}
+
+.personal-info {
+  margin-top: 15rem;
+}
+
 .header-name {
-  font-size: 3rem;
+  font-size: 4rem;
   color: #fff;
   padding: 15vh 0 0 0;
-  text-shadow: 1px 1px 1px #000,
-               3px 3px 5px #000; 
+  text-shadow: 1px 1px 1px #ca2a2a,
+               3px 3px 5px #ca2a2a; 
 }
 
 .job-title {
   color: #fff;
-  font-size: 2rem;
-  text-shadow: 1px 1px 1px #000,
-               2px 2px 3.5px #000;
-  margin: 2vh;
+  font-size: 3rem;
+  text-shadow: 1px 1px 1px #ca2a2a,
+               2px 2px 3.5px #ca2a2a;
+  margin-top: 2vh;
 }
 
-.github {
-  width: 3rem;
-  margin: 2vw;
-  transition: 0.3s;
-  &:hover {
-    width: 3.4rem;
-    margin-bottom: 0.7rem;
-    margin-right: 0.8rem;
-  }
+.flex-container {
+  display: flex;
+  justify-content: space-between;
 }
 
+.eric {
+  width: 30vw;
+  margin: 4rem 4rem 0 0;
+  border-radius: 15px;
+}
+
+.github,
 .linkedIn {
+  fill: #fff;
+  color: #fff;
   width: 3rem;
-  margin: 2vw;
+  // margin: 2vw;
+  margin-bottom: 3vw;
   transition: 0.3s;
   &:hover {
-    width: 3.3rem;
-    margin-bottom: 0.8rem;
-    margin-left: 0.8rem;
+    transform: scale(1.2)
   }
 }
 
 .link-container {
   display: flex;
-  justify-content: center;
 }
+
 .link-div {
   width: 10vw;
+}
+
+.quote {
+  color: #fff;
+  font-size: 3rem;
+  margin-bottom: 2rem;
 }
