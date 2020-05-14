@@ -5,7 +5,7 @@ class Video extends Component {
   render() { 
     return <div className="video">
         <h2 className="video-heading">I absolutely love public speaking</h2>
-        <iframe src='https://www.youtube.com/embed/xW6EjaReyPU' 
+        {/* <iframe src='https://www.youtube.com/embed/xW6EjaReyPU'  */}
           height='700'
           width='700'
           frameBorder='0'
