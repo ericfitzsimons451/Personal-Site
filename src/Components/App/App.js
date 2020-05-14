@@ -4,15 +4,7 @@ import Header from '../Header/Header'
 import About from '../About/About'
 import Projects from '../Projects/Projects'
 import Contact from '../Contact/Contact'
-// import Nav from '../Nav/Nav'
-// import MainDisplay from '../MainDisplay/MainDisplay'
-// import Prismic from 'prismic-javascript'
-// import { Date, Link, RichText } from 'prismic-reactjs'
-
-// const apiEndpoint = 'https://your-repo-name.cdn.prismic.io/api/v2'
-// const accessToken = '' // This is where you would add your access token for a Private repository
- 
-// const Client = Prismic.client(apiEndpoint, { accessToken })
+import Video from '../Video/Video'
 
 export class App extends Component {
   constructor() {
@@ -31,8 +23,9 @@ export class App extends Component {
     return (
       <div className="App">
         <Header />
-        <About />
         <Projects />
+        <About />
+        <Video />
         <Contact />
         {/* <Nav setCurrentView={this.setCurrentView}
              currentView={this.state.currentView} />

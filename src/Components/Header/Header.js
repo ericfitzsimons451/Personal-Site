@@ -7,17 +7,21 @@ import linkedIn from '../../Assets/linkedin.svg'
 export const Header = () => {
   return (
     <div className="header">
+      <div className="header-nav">
+        <h2>Home</h2>
+        <h2>Blog</h2>
+      </div>
       <div className="flex-container">
         <div className="personal-info">
           <h1 className="header-name">Eric Fitzsimons</h1>
-          <h3 className="job-title">Frontend Web Developer</h3>
+          <h3 className="job-title">Web Developer</h3>
         </div>
-        <img className="eric" 
+        {/* <img className="eric" 
           src={eric} 
           alt="Eric Fitzsimons"
-        />
+        /> */}
       </div>
-      <div className="link-container">
+      {/* <div className="link-container">
         <div className="link-div">
           <a href='https://github.com/ericfitzsimons451'>
             <img className="github"
@@ -34,8 +38,7 @@ export const Header = () => {
             />
           </a>
         </div>
-      </div>
-      <h4 className="quote"> - Don't forget to change the font!!</h4>
+      </div> */}
     </div>
   )
 }

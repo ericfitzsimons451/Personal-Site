@@ -1,45 +1,70 @@
 .header {
-  margin-left: 4rem;
+  min-height: 100vh;
+  background: url('../../Assets/blueBuilding.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: center;
+  background: #fff;
+  min-height: 11vh;
+  border-bottom: 2px solid black;
+  h2 {
+    margin: 5vh 1vh 0 1vh;
+  }
 }
 
 .personal-info {
-  margin-top: 15rem;
+  padding: 4.5rem;
 }
 
-.header-name {
-  font-size: 4rem;
-  color: #fff;
-  padding: 15vh 0 0 0;
-  text-shadow: 1px 1px 1px #ca2a2a,
-               3px 3px 5px #ca2a2a; 
-}
-
+.header-name,
 .job-title {
-  color: #fff;
-  font-size: 3rem;
-  text-shadow: 1px 1px 1px #ca2a2a,
-               2px 2px 3.5px #ca2a2a;
-  margin-top: 2vh;
+  font-family: 'Puritan', sans-serif;
+  font-size: 4rem;
+  color: #000;
+  // padding: 15vh 0 0 0;
+  text-align: flex-start;
+  text-shadow: 1px 1px 1px #9F777D,
+               1px 1px 1px #9F777D; 
+  h3 {
+    font-size: 3rem;
+    text-align: center;
+  }
 }
+
+// .job-title {
+//   color: #247BA0;
+//   font-size: 3rem;
+//   margin-top: 2vh;
+//   text-align: center;
+//   text-shadow: 1px 1px 1px #9F777D,
+//                1px 1px 1px #9F777D; 
+// }
 
 .flex-container {
-  display: flex;
-  justify-content: space-between;
+  // display: flex;
+  // justify-content: space-between;
+  // justify-content: center;
 }
 
-.eric {
-  width: 30vw;
-  margin: 4rem 4rem 0 0;
-  border-radius: 15px;
-}
+// .eric {
+//   width: 30vw;
+//   margin: 4rem 4rem 0 0;
+//   border-radius: 15px;
+// }
 
 .github,
 .linkedIn {
-  fill: #fff;
-  color: #fff;
+  fill: #247BA0;
+  color: #247BA0;
   width: 3rem;
-  // margin: 2vw;
-  margin-bottom: 3vw;
+  // margin: 5rem;
+  // margin-bottom: 3vw;
   transition: 0.3s;
   &:hover {
     transform: scale(1.2)
@@ -48,14 +73,18 @@
 
 .link-container {
   display: flex;
+  justify-content: space-evenly;
+  width: 10vw;
+  align-items: center;
+
 }
 
-.link-div {
-  width: 10vw;
-}
+// .link-div {
+//   width: 10vw;
+// }
 
 .quote {
   color: #fff;
   font-size: 3rem;
-  margin-bottom: 2rem;
+  padding: 5rem;
 }
