@@ -4,7 +4,7 @@ import charlie from '../../Assets/charlie.jpeg'
 
 export const About = () => {
   return (
-    <div className="About">
+    <div className="about">
       <h2 className= "about-heading">About</h2>
       <div className="about-article">
         <div>

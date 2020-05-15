@@ -2,10 +2,6 @@ import React from 'react'
 import './Projects.scss'
 import church from '../../Assets/stateOfTheChurch.png'
 import palette from '../../Assets/Palette.png'
-import radio from '../../Assets/radio.png'
-import movieTracker from '../../Assets/MovieTracker.png'
-import getSwole from '../../Assets/getSwole.png'
-
 
 const Projects = () => {
   return (
@@ -41,9 +37,9 @@ const Projects = () => {
       </div>
     </div>
   )
-}
+};
 
-export default Projects
+export default Projects;
 
 
 

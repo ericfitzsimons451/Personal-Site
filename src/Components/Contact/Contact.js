@@ -9,7 +9,7 @@ import './Contact.scss'
 
 export const Contact = () => {
   return (
-    <div className="Contact">
+    <div className="contact">
       <h2 className="text">Contact Info</h2>
       <div className="link-container">
         <div className="link-div">

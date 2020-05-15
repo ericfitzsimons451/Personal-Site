@@ -27,7 +27,6 @@
   font-family: 'Puritan', sans-serif;
   font-size: 4rem;
   color: #000;
-  // padding: 15vh 0 0 0;
   text-align: flex-start;
   text-shadow: 1px 1px 1px #9F777D,
                1px 1px 1px #9F777D; 
@@ -37,34 +36,11 @@
   }
 }
 
-// .job-title {
-//   color: #247BA0;
-//   font-size: 3rem;
-//   margin-top: 2vh;
-//   text-align: center;
-//   text-shadow: 1px 1px 1px #9F777D,
-//                1px 1px 1px #9F777D; 
-// }
-
-.flex-container {
-  // display: flex;
-  // justify-content: space-between;
-  // justify-content: center;
-}
-
-// .eric {
-//   width: 30vw;
-//   margin: 4rem 4rem 0 0;
-//   border-radius: 15px;
-// }
-
 .github,
 .linkedIn {
   fill: #247BA0;
   color: #247BA0;
   width: 3rem;
-  // margin: 5rem;
-  // margin-bottom: 3vw;
   transition: 0.3s;
   &:hover {
     transform: scale(1.2)
@@ -76,12 +52,7 @@
   justify-content: space-evenly;
   width: 10vw;
   align-items: center;
-
 }
-
-// .link-div {
-//   width: 10vw;
-// }
 
 .quote {
   color: #fff;

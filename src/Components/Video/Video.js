@@ -15,9 +15,7 @@ class Video extends Component {
           className="iFrame"
         />
       </div>
-
   }
 }
-
 
 export default Video;
