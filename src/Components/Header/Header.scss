@@ -1,6 +1,6 @@
 .header {
   min-height: 100vh;
-  background: url('../../Assets/blueBuilding.jpg') no-repeat center center fixed; 
+  background: url('../../Assets/sea.png') no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -47,15 +47,25 @@
   }
 }
 
-.link-container {
-  display: flex;
-  justify-content: space-evenly;
-  width: 10vw;
-  align-items: center;
-}
-
 .quote {
   color: #fff;
   font-size: 3rem;
   padding: 5rem;
+}
+
+.scroll-container {
+  margin-left: 72px;
+  a {
+    margin-right: 20px;
+  }
+}
+
+.link {
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.4;
+  letter-spacing: 1px;
+  &:hover {
+    text-decoration: underline;
+  }
 }
