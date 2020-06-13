@@ -69,3 +69,38 @@
     text-decoration: underline;
   }
 }
+
+@media(max-width: 670px) {
+  .personal-info {
+    padding: 50px 50px 25px 50px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .scroll-container {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    :not(:last-child) {
+      margin: 15px 0 0 0;
+      font-size: 2rem;
+    }
+    .link {
+      margin: 0;
+      font-size: 2rem;
+    }
+  }
+
+  @media(max-width: 670px) {
+    .scroll-container {
+      align-items: flex-start;
+      margin: 50px 0 0 50px;
+      a {
+        color: #fff;
+        margin-left: 72px;
+      }
+    }
+  }
+
+  
+}
