@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
-import '../Video/Video.scss'
+import '../Video/Video.scss';
 
 class Video extends Component {
   render() { 
     return (
-      <div className="video">
-        <h2 className="video-heading">Lightning Talk to Turing Community</h2>
+      <section className="video">
         <div className="iFrame-wrapper">
           <iframe src='https://www.youtube.com/embed/xW6EjaReyPU' 
             frameBorder='0'
@@ -17,9 +16,9 @@ class Video extends Component {
             className="iFrame"
           />
         </div>
-      </div>
+      </section>
     )
-  }
-}
+  };
+};
 
 export default Video;

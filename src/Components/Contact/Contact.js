@@ -1,16 +1,12 @@
-import React from 'react'
-import eric from '../../Assets/Eric_Fitzsimons_Headshot.png'
-import github from '../../Assets/github.svg'
-import linkedIn from '../../Assets/linkedin.svg'
-
-import './Contact.scss'
-
-
+import React from 'react';
+import './Contact.scss';
+import github from '../../Assets/github.svg';
+import linkedIn from '../../Assets/linkedin.svg';
 
 export const Contact = () => {
   return (
-    <div className="contact">
-      <h2 className="text">Contact Info</h2>
+    <section className="contact">
+      <h2>Contact</h2>
       <div className="link-container">
         <div className="link-div">
           <a href='https://github.com/ericfitzsimons451'>
@@ -29,12 +25,12 @@ export const Contact = () => {
           </a>
         </div>
       </div>
-      <div>
-        <h3 className="text">ericfitzsimons451@gmail.com</h3>
-        <h3 className="text">720-569-9970</h3>
+      <div className="contact-info">
+        <h3>ericfitzsimons451@gmail.com</h3>
+        <h3>720-569-9970</h3>
       </div>
-    </div>
+    </section>
   )
-}
+};
 
-export default Contact
+export default Contact;
