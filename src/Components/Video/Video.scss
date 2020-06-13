@@ -8,13 +8,12 @@
   flex-direction: column;
   align-items: center;
   padding: 25px 0;
+  h2 {
+    font-family: 'Puritan', sans-serif;
+    font-size: 3rem;
+    color: #000;
+  }
 };
-
-.video-heading {
-  font-family: 'Puritan', sans-serif;
-  font-size: 3rem;
-  color: #000;
-}
 
 .iFrame-wrapper {
   width: 80%;

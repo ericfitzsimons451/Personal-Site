@@ -7,17 +7,6 @@
   background-size: cover;
 }
 
-.header-nav {
-  display: flex;
-  justify-content: center;
-  background: #fff;
-  min-height: 11vh;
-  border-bottom: 2px solid black;
-  h2 {
-    margin: 5vh 1vh 0 1vh;
-  }
-}
-
 .personal-info {
   padding: 4.5rem;
 }
@@ -34,23 +23,6 @@
     font-size: 3rem;
     text-align: center;
   }
-}
-
-.github,
-.linkedIn {
-  fill: #247BA0;
-  color: #247BA0;
-  width: 3rem;
-  transition: 0.3s;
-  &:hover {
-    transform: scale(1.2)
-  }
-}
-
-.quote {
-  color: #fff;
-  font-size: 3rem;
-  padding: 5rem;
 }
 
 .scroll-container {
@@ -100,7 +72,5 @@
         margin-left: 72px;
       }
     }
-  }
-
-  
+  }  
 }
