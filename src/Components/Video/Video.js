@@ -5,6 +5,7 @@ class Video extends Component {
   render() { 
     return (
       <section className="video">
+        <h2>Public Speaking</h2>
         <div className="iFrame-wrapper">
           <iframe src='https://www.youtube.com/embed/xW6EjaReyPU' 
             frameBorder='0'

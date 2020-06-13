@@ -1,10 +1,11 @@
 .contact {
-  background-color: #fff;
+  background: #fdf5e6;
   display: flex;
   flex-direction: column;
   align-items: center;
   h2 {
-    font-size: 2.5rem;
+    font-family: 'Puritan', sans-serif;
+    font-size: 3rem;
     text-align: center;
     margin: 20px;
   }
@@ -26,5 +27,16 @@
   h3 {
     padding: 5px;
     font-size: 1.8rem;
+  }
+}
+
+.github,
+.linkedIn {
+  fill: #247BA0;
+  color: #247BA0;
+  width: 3rem;
+  transition: 0.3s;
+  &:hover {
+    transform: scale(1.2)
   }
 }

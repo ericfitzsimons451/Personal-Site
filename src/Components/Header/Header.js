@@ -12,7 +12,7 @@ export const Header = () => {
         </div>
         <div className="scroll-container">
           <Link
-           className="link"
+            className="link"
             activeClass="active"
             to="projects"
             spy={true}
