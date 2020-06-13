@@ -1,6 +1,6 @@
-import React from 'react'
-import './Header.scss'
-import { Link } from 'react-scroll'
+import React from 'react';
+import './Header.scss';
+import { Link } from 'react-scroll';
 
 export const Header = () => {
   return (
@@ -22,7 +22,7 @@ export const Header = () => {
           >
             Projects
           </Link>
-           <Link
+          <Link
             className="link"
             activeClass="active"
             to="about"
@@ -33,7 +33,7 @@ export const Header = () => {
           >
             About
           </Link>
-           <Link
+          <Link
             className="link"
             activeClass="active"
             to="video"
@@ -44,7 +44,7 @@ export const Header = () => {
           >
             Public Speaking
           </Link>
-           <Link
+          <Link
             className="link"
             activeClass="active"
             to="contact"
