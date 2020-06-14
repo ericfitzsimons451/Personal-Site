@@ -1,12 +1,13 @@
 import React from 'react';
 import './About.scss';
+import eric from '../../Assets/eric.jpeg'
 
 export const About = () => {
   return (
     <section className="about">
       <h2 className= "about-heading">About</h2>
       <div className="about-article">
-        <div>
+          <img className="eric" src={eric} alt="Eric Fitzsimons" />
           <h3 className="about-text"> 
             Front-end developer, excited about making 
             connections between people and their passions via 
@@ -21,7 +22,6 @@ export const About = () => {
             on the disc golf course, playing guitar, or spending time
             with my dog, Charlie.
           </h3>
-        </div>
       </div>
     </section>
   )

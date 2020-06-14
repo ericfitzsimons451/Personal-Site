@@ -12,8 +12,8 @@ export const App = () => {
   return (
     <div className="app">
       <Header />
-      <Projects />
       <About />
+      <Projects />
       <Video />
       <Contact />
     </div>

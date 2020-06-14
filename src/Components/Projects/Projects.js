@@ -1,9 +1,120 @@
-import React from 'react';
+import React, { Component } from 'react';
+// import { CarouselProvider, Slider, Slide, ButtonBack, ButtonNext } from 'pure-react-carousel';
+// import { Carousel } from 'react-responsive-carousel';
+// import 'react-responsive-carousel/lib/styles/carousel.min.css'
 import './Projects.scss';
 import church from '../../Assets/stateOfTheChurch.png';
 import entercom from '../../Assets/entercom.png';
 import movie from '../../Assets/movie-tracker.png';
 import palette from '../../Assets/Palette.png';
+
+
+
+// class Projects extends Component {
+//   render() {
+//     return (
+//       <div className="projects">
+//         <h2>Projects</h2>
+//         <Carousel className="carousel">
+//           <div>
+//             <img src={church} className="church" alt="State of the Church" />
+//             <h3>This is information about the project. as;ldkjas;ldfjkas;ldkfja;sldkfja;sldkfja;sldkfja;sldkfj;asldkfj;asldkfj;asldkfj;alsdkfja;sldkfja;lsdkfj;alsdkfj;alsdkfj;alsdkfja;lsdkfj;asldkfj;asldkfj;alsdkfja;sldfkj</h3>
+//           </div>
+//           <div>
+//             <img src={church} className="church" alt="State of the Church" />
+//           </div>
+//           <div>
+//             <img src={church} className="church" alt="State of the Church" />
+//           </div>
+//         </Carousel>
+//       </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      // <CarouselProvider
+      //   naturalSlideWidth={100}
+      //   naturalSlideHeight={25}
+      //   totalSlides={4}
+      //   orientation="horizontal"
+      //   className="carouselProvider"
+      //   intrinsicHeight="true"
+      // >
+      
+      // <Slider>
+      //   <Slide index={0}><img src={church} className="church" alt="State of the Church" /></Slide>
+      //   <Slide index={1}><img src={entercom} className="entercom" alt="Entercom Streaming Audio" /></Slide>
+      //   <Slide index={2}><img src={ palette } className="palette" alt="Palette Picker App" /></Slide>
+      //   <Slide index={3}><img src={ movie } className="movie" alt="Movie Tracker App App" /></Slide>
+      // </Slider>
+
+      
+      // <ButtonBack>Back</ButtonBack>
+      // <ButtonNext>Next</ButtonNext>
+      
+      // </CarouselProvider>
+//     );
+//   }
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 const Projects = () => {
   return (
