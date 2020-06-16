@@ -6,7 +6,7 @@ import About from '../About/About';
 import Projects from '../Projects/Projects';
 import Contact from '../Contact/Contact';
 import Video from '../Video/Video';
-
+import Signature from '../Signature/Signature'
 export const App = () => {
   
   return (
@@ -16,6 +16,7 @@ export const App = () => {
       <Projects />
       <Video />
       <Contact />
+      <Signature />
     </div>
   )
 };
