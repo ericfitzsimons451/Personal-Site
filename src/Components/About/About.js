@@ -1,6 +1,7 @@
 import React from 'react';
 import './About.scss';
-import eric from '../../Assets/eric.jpeg'
+import eric from '../../Assets/eric2.jpeg';
+import charlie from '../../Assets/Charlie2.jpg'
 
 export const About = () => {
   return (
@@ -22,6 +23,7 @@ export const About = () => {
             on the disc golf course, playing guitar, or spending time
             with my dog, Charlie.
           </h3>
+          <img className="charlie" src={charlie} alt="Charlie, my amazing dog!" />
       </div>
     </section>
   )

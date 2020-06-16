@@ -5,7 +5,7 @@ import linkedIn from '../../Assets/linkedin.svg';
 
 export const Contact = () => {
   return (
-    <section className="contact-section">
+    <section className="contact">
       <h2>Contact</h2>
       <div className="link-container">
         <div className="link-div">
