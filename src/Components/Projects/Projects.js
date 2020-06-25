@@ -1,5 +1,4 @@
-import React, { Component } from 'react';
-
+import React from 'react';
 import './Projects.scss';
 import church from '../../Assets/stateOfTheChurch.png';
 import entercom from '../../Assets/entercom.png';
