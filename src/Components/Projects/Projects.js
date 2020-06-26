@@ -46,7 +46,7 @@ const Projects = () => {
         </div>
         <div className="project">
           <div className="img-background">
-            <a href="https://github.com/ericfitzsimons451/palette-picker-ui">
+            <a href="https://limitless-escarpment-99578.herokuapp.com/">
               <img src={ palette } className="palette" alt="Palette Picker App" />
             </a>
           </div>
