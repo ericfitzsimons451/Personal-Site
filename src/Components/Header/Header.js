@@ -3,8 +3,6 @@ import './Header.scss';
 import { Link } from 'react-scroll';
 
 export const Header = () => {
-      {console.log(window)}
-
   return (
     <div className="header">
       <div className="flex-container">
@@ -63,4 +61,4 @@ export const Header = () => {
   )
 }
 
-export default Header
+export default Header;

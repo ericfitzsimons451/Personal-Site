@@ -1,5 +1,4 @@
-import React, { Component } from 'react';
-
+import React from 'react';
 import './Projects.scss';
 import church from '../../Assets/stateOfTheChurch.png';
 import entercom from '../../Assets/entercom.png';
@@ -46,7 +45,7 @@ const Projects = () => {
         </div>
         <div className="project">
           <div className="img-background">
-            <a href="https://limitless-escarpment-99578.herokuapp.com/">
+            <a href="https://github.com/ericfitzsimons451/palette-picker-ui">
               <img src={ palette } className="palette" alt="Palette Picker App" />
             </a>
           </div>
