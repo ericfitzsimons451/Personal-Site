@@ -1,0 +1,79 @@
+.header {
+  min-height: 100vh;
+  background: url('../../Assets/sea.png') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.personal-info {
+  padding: 4.5rem;
+}
+
+.header-name,
+.job-title {
+  font-family: 'Puritan', sans-serif;
+  font-size: 4rem;
+  color: #000;
+  text-align: flex-start;
+  text-shadow: 1px 1px 1px #9F777D,
+               1px 1px 1px #9F777D; 
+  margin-bottom: 20px;
+  h3 {
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 100px;
+  }
+}
+
+.scroll-container {
+  margin-left: 72px;
+  a {
+    margin-right: 20px;
+  }
+}
+
+.link {
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.4;
+  letter-spacing: 1px;
+  &:hover {
+    cursor: pointer;
+    text-decoration: underline;
+  }
+}
+
+@media(max-width: 670px) {
+  .personal-info {
+    padding: 50px 50px 25px 50px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .scroll-container {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    :not(:last-child) {
+      margin: 15px 0 0 0;
+      font-size: 2rem;
+    }
+    .link {
+      margin: 0;
+      font-size: 2rem;
+    }
+  }
+
+  @media(max-width: 670px) {
+    .scroll-container {
+      align-items: flex-start;
+      margin: 50px 0 0 50px;
+      a {
+        color: #fff;
+        margin-left: 72px;
+      }
+    }
+  }  
+}
