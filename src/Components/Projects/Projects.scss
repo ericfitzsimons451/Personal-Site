@@ -18,16 +18,15 @@
 }
 
 .project {
+  background: #000;
   width: 330px;
   text-align: center;
   line-height: 1.4;
   letter-spacing: 1px;
   margin: 10px 10px;
-  opacity: 70%;
   transition: .3s;
   &:hover {
-    opacity: 100%;
-    transform: scale(1.01);
+    transform: scale(1.3);
   }
   a {
     text-decoration: none;
