@@ -25,9 +25,10 @@
   letter-spacing: 1px;
   margin: 10px 10px;
   transition: .3s;
-  opacity: 100%;
+  opacity: .7;
   &:hover {
-    transform: scale(1.00)
+    transform: scale(1.00);
+    opacity: 1;
   }
   a {
     text-decoration: none;
